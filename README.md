@@ -1,9 +1,6 @@
-# ![Node/Express/Mongoose Example App](project-logo.png)
+# ![Node/Express/Mongoose App](project-logo.png)
 
-> Example Node (Express+Mongoose) codebase that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
-
-This repo is functionality complete but still in beta while we resolve bugs, etc -- PR's and issues welcome!
-
+>
 # Code Overview
 
 ## Dependencies
@@ -25,7 +22,7 @@ This repo is functionality complete but still in beta while we resolve bugs, etc
 
 ## Error Handling
 
-In `routes/api/index.js`, we define a error-handling middleware for handling Mongoose's `ValidationError`. This middleware will respond with a 422 status code and format the response to have [error messages the clients can understand](https://github.com/gothinkster/realworld/blob/master/API.md#errors-and-status-codes)
+In `routes/api/index.js`, we define a error-handling middleware for handling Mongoose's `ValidationError`. This middleware will respond with a 422 status code and format the response to have [error messages the clients can understand]
 
 ## Authentication
 

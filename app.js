@@ -32,7 +32,8 @@ if (!isProduction) {
 }
 
 if(isProduction){
-  mongoose.connect(process.env.MONGODB_URI);
+//  mongoose.connect(process.env.MONGODB_URI);
+	mongoose.connect('mongodb://satprep:satprep@ds133158.mlab.com:33158/satprep');
 } else {
   mongoose.connect('mongodb://satprep:satprep@ds133158.mlab.com:33158/satprep');
 //  mongoose.connect('mongodb://localhost/satprep');
