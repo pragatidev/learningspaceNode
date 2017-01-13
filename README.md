@@ -26,7 +26,7 @@ Please follow this link https://console.ng.bluemix.net/docs/starters/install_cli
 IBM bluemix provides nodejs runtime, follow this link for more information https://console.ng.bluemix.net/docs/runtimes/nodejs/index.html#nodejs_runtime 
 
 Bluemix Dashboard after service deployment 
-# (dashboard.png)
+# !(dashboard.png)
 
 
 
