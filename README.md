@@ -1,4 +1,4 @@
-# ![Node/Express/Mongoose App](project-logo.png)
+# ![Node/Express/Mongoose App]
 
 >
 # Code Overview
@@ -19,6 +19,16 @@
 - `config/` - This folder contains configuration for passport as well as a central location for configuration/environment variables.
 - `routes/` - This folder contains the route definitions for our API. They contain
 - `models/` - This folder contains the schema definitions for our Mongoose models.
+
+## Cloud Deployment using Cloud Foundry CLI
+
+Please follow this link https://console.ng.bluemix.net/docs/starters/install_cli.html for deployment using Cloud FOundry CLI.
+IBM bluemix provides nodejs runtime, follow this link for more information https://console.ng.bluemix.net/docs/runtimes/nodejs/index.html#nodejs_runtime 
+
+Bluemix Dashboard after service deployment 
+## dashboard.png
+
+
 
 ## Error Handling
 
